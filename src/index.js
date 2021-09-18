@@ -126,7 +126,7 @@ const IncidentForm = () => {
     <Main ref={scollToRef} style={{ padding: DEFAULT_THEME.space.md }}>
       <ThemeProvider theme={myTheme}>
         <StyledHeading>
-          <XXXL tag="h1">H1 heading</XXXL>
+          <XXL tag="h1">BTS Incident</XXL>
         </StyledHeading>
         {/*<StyledHeading>
           <XL tag="h2">H2 heading</XL>
