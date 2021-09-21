@@ -1,3 +1,7 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
 /* Temporary solution for a centered modal spinner. */
 [role="dialog"] {
   background-color: transparent !important;

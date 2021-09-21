@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import { Modal } from "@zendeskgarden/react-modals";
 import { Spinner } from "@zendeskgarden/react-loaders";
 import { DEFAULT_THEME, PALETTE } from "@zendeskgarden/react-theming";
