@@ -33,10 +33,6 @@ import {
 
 const myTheme = {
   ...DEFAULT_THEME,
-  borderRadii: {
-    ...DEFAULT_THEME.borderRadii,
-    md: "0"
-  },
   colors: {
     ...DEFAULT_THEME.colors,
     primaryHue: "#004c76"
@@ -48,10 +44,10 @@ const StyledHeading = styled.div`
     const hasTheme = Object.entries(p.theme).length !== 0;
     return hasTheme ? p.theme.space.lg : DEFAULT_THEME.space.lg;
   }};
-  margin-top: ${(p) => {
+  /*margin-top: ${(p) => {
     const hasTheme = Object.entries(p.theme).length !== 0;
     return hasTheme ? p.theme.space.lg : DEFAULT_THEME.space.lg;
-  }};
+  }};*/
 `;
 
 const IncidentForm = () => {
@@ -149,8 +145,8 @@ const IncidentForm = () => {
                   <Body>
                     <TableRow>
                       <Cell style={{ verticalAlign: "middle" }}>
-                        <Tag size="large">
-                          <MD isBold>#12345678</MD>
+                        <Tag hue="#3A3A3A" size="large">
+                          <LG>#12345678</LG>
                         </Tag>
                       </Cell>
                       <Cell>
